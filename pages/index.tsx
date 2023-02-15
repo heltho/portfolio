@@ -1,3 +1,4 @@
+import Biography from "@/components/organisms/Biography";
 import Hero from "@/components/organisms/Hero";
 import Head from "next/head";
 
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <main className="px-8 mx-auto max-w-7xl">
         <Hero />
+        <Biography />
       </main>
     </>
   );
