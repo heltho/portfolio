@@ -58,3 +58,11 @@
 html {
   font-family: "Fira Code", monospace;
 }
+
+h2 {
+  @apply text-2xl text-white md:text-3xl;
+}
+
+h3 {
+  @apply text-lg md:text-2xl text-white-alt;
+}
