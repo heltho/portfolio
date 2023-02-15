@@ -3,7 +3,7 @@ import Button from "../atoms/Button";
 
 export default function Hero() {
   return (
-    <header className="flex flex-col-reverse gap-8 py-16 md:flex-row md:justify-between md:items-center">
+    <header className="flex flex-col-reverse max-w-5xl gap-8 py-16 mx-auto md:py-32 md:flex-row md:justify-between md:items-center">
       <div className="text-center md:text-left">
         <h1 className="text-white text-4xl md:text-[3.375rem] font-semibold leading-tight mb-4 md:mb-6">
           Hi there ! <br /> I am{" "}
