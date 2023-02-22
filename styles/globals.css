@@ -59,6 +59,10 @@ html {
   font-family: "Fira Code", monospace;
 }
 
+h1 > span {
+  @apply text-scooter;
+}
+
 h2 {
   @apply text-2xl text-white md:text-3xl;
 }

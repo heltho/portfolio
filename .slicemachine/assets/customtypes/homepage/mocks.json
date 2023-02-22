@@ -1,0 +1,145 @@
+{
+  "slices": {
+    "__TYPE__": "SliceContentType",
+    "value": [
+      {
+        "key": "hero$05779fec-0119-4807-8f92-9193d89bd88a",
+        "name": "hero",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "title": {
+              "__TYPE__": "FieldContent",
+              "value": "threw",
+              "type": "Text"
+            },
+            "job": {
+              "__TYPE__": "FieldContent",
+              "value": "brick",
+              "type": "Text"
+            },
+            "button_label": {
+              "__TYPE__": "FieldContent",
+              "value": "little",
+              "type": "Text"
+            },
+            "button_anchor": {
+              "__TYPE__": "FieldContent",
+              "value": "express",
+              "type": "Text"
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": []
+            }
+          ]
+        }
+      },
+      {
+        "key": "biography$a61a54f7-2ea5-4e18-a49d-56733e4aeb71",
+        "name": "biography",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "title": {
+              "__TYPE__": "FieldContent",
+              "value": "earth",
+              "type": "Text"
+            },
+            "description": {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Culpa officia irure quis velit voluptate consectetur irure. Duis enim in velit elit commodo est esse anim in est velit commodo. Ut occaecat dolore aliqua qui consectetur Lorem consequat ea."
+                  }
+                }
+              ]
+            },
+            "button_label": {
+              "__TYPE__": "FieldContent",
+              "value": "rocket",
+              "type": "Text"
+            },
+            "resume": {
+              "__TYPE__": "LinkContent",
+              "value": {
+                "id": "mock_Media_link",
+                "kind": "image/jpeg",
+                "name": "mock_name",
+                "url": "https://source.unsplash.com/daily",
+                "size": "0",
+                "__TYPE__": "FileLink"
+              }
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": []
+            }
+          ]
+        }
+      },
+      {
+        "key": "skills$c71e5224-f23d-49c0-bf8c-41dbb56f3746",
+        "name": "skills",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "title": {
+              "__TYPE__": "FieldContent",
+              "value": "sea",
+              "type": "Text"
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": [
+                [
+                  "logo",
+                  {
+                    "__TYPE__": "ImageContent",
+                    "origin": {
+                      "id": "main",
+                      "url": "https://images.unsplash.com/photo-1586952518485-11b180e92764",
+                      "width": 4172,
+                      "height": 4000
+                    },
+                    "url": "https://images.unsplash.com/photo-1586952518485-11b180e92764",
+                    "width": 4172,
+                    "height": 4000,
+                    "edit": {
+                      "zoom": 1,
+                      "crop": {
+                        "x": 0,
+                        "y": 0
+                      },
+                      "background": "transparent"
+                    },
+                    "thumbnails": {}
+                  }
+                ],
+                [
+                  "label",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "value": "fewer",
+                    "type": "Text"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

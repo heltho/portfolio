@@ -2,8 +2,12 @@ import Biography from "@/components/organisms/Biography";
 import Hero from "@/components/organisms/Hero";
 import Skills from "@/components/organisms/Skills";
 import Head from "next/head";
+import { SliceZone } from "@prismicio/react";
 
-export default function Home() {
+import { createClient } from "../prismicio";
+import { components } from "../slices";
+
+export default function Home({ page, navigation, settings }) {
   return (
     <>
       <Head>
@@ -16,10 +20,20 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="px-8 mx-auto max-w-7xl">
-        <Hero />
-        <Biography />
-        <Skills />
+        <SliceZone slices={page.data.slices} components={components} />
       </main>
     </>
   );
+}
+
+export async function getStaticProps({ previewData }) {
+  const client = createClient({ previewData });
+
+  const page = await client.getSingle("homepage");
+
+  return {
+    props: {
+      page,
+    },
+  };
 }

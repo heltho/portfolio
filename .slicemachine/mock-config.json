@@ -1,0 +1,22 @@
+{
+  "_cts": {
+    "homepage": {}
+  },
+  "slices": {
+    "Hero": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Biography": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Skills": {
+      "default": {
+        "primary": {}
+      }
+    }
+  }
+}

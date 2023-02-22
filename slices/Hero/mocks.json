@@ -1,0 +1,34 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "FieldContent",
+        "value": "dry",
+        "type": "Text"
+      },
+      "job": {
+        "__TYPE__": "FieldContent",
+        "value": "there",
+        "type": "Text"
+      },
+      "button_label": {
+        "__TYPE__": "FieldContent",
+        "value": "her",
+        "type": "Text"
+      },
+      "button_anchor": {
+        "__TYPE__": "FieldContent",
+        "value": "function",
+        "type": "Text"
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": []
+      }
+    ]
+  }
+]
