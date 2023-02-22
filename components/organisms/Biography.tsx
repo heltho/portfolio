@@ -6,7 +6,7 @@ export default function Biography() {
   return (
     <LayoutSection>
       <Heading title="Biography" level="h2" haveIcon={true} />
-      <p className="mb-8 text-lg md:text-xl text-white-alt">
+      <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed purus nunc,
         cursus in tellus id, sodales feugiat purus. Maecenas sem velit, tempor
         in ex in, rutrum efficitur lectus. Nam sodales libero ac mi dapibus
